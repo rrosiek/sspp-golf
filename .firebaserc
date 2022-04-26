@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "sspp-golf-staging",
+    "staging": "sspp-golf-staging",
+    "production": "sspp-golf",
+    "emulator": "demo-sspp"
+  }
+}
