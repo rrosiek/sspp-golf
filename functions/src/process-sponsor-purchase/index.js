@@ -1,6 +1,7 @@
 const functions = require("firebase-functions");
 const chargeWithSquare = require("./chargeWithSquare");
 const mailAdminNotice = require("./mailAdminNotice");
+const mailFailedPurchase = require("./mailFailedPurchase");
 const mailReceipt = require("./mailReceipt");
 const setFunctionLock = require("./setFunctionLock");
 const TransactionLockError = require("../errors/transactionLockError");
@@ -22,7 +23,14 @@ module.exports = functions.firestore
     }
 
     console.info("Charging card with square");
-    const squareCharge = await chargeWithSquare(purchaseSnap);
+    const [err, squareCharge] = await chargeWithSquare(purchaseSnap);
+
+    if (err) {
+      console.info("Square charge failed, sending notice");
+      await mailFailedPurchase(purchaseSnap.data());
+
+      return null;
+    }
 
     console.info("Sending receipt via email");
     await mailReceipt(purchaseSnap.id, purchaseSnap.data(), squareCharge);

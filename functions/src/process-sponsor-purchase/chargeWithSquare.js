@@ -7,6 +7,7 @@ module.exports = async (purchaseSnap) => {
   const purchase = purchaseSnap.data();
   const squareAccessToken = functions.config().square.token;
   const squareEnv = functions.config().square.env;
+  const sponsorPresenting = functions.config().tournament.sponsor_presenting;
   const sponsorAce = functions.config().tournament.sponsor_ace;
   const sponsorEagle = functions.config().tournament.sponsor_eagle;
   const sponsorBirdie = functions.config().tournament.sponsor_birdie;
@@ -20,6 +21,7 @@ module.exports = async (purchaseSnap) => {
   });
 
   const sponsorOptions = {
+    sponsor_presenting: sponsorPresenting,
     sponsor_ace: sponsorAce,
     sponsor_eagle: sponsorEagle,
     sponsor_birdie: sponsorBirdie,
@@ -50,7 +52,7 @@ module.exports = async (purchaseSnap) => {
       squarePurchase: result,
     });
 
-    return result;
+    return [false, result];
   } catch (err) {
     if (err instanceof ApiError) {
       console.error(err.result);
@@ -58,6 +60,6 @@ module.exports = async (purchaseSnap) => {
       console.error(err);
     }
 
-    throw err;
+    return [err, false];
   }
 };
