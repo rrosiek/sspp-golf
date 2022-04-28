@@ -1,6 +1,6 @@
 const AWS = require("aws-sdk");
 const functions = require("firebase-functions");
-const emailTemplate = require("../email-templates/sponsor-error-notice");
+const emailTemplate = require("../email-templates/ticket-error-notice");
 
 const adminEmail = functions.config().tournament.admin_email;
 
@@ -13,10 +13,7 @@ module.exports = async (purchase) => {
     region: "us-east-1",
   });
 
-  const html = emailTemplate({
-    adminEmail,
-    sponsorshipName: purchase.sponsorName,
-  }).html;
+  const html = emailTemplate({ adminEmail }).html;
 
   return new AWS.SES()
     .sendEmail({

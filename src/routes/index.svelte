@@ -5,6 +5,7 @@
   import Footer from "$lib/components/Footer.svelte";
   import Header from "$lib/components/Header.svelte";
   import Payment from "$lib/components/Payment.svelte";
+  import Sponsors from "$lib/components/Sponsors.svelte";
   import ThankYou from "$lib/components/ThankYou.svelte";
 
   const app = getFirebaseApp();
@@ -21,6 +22,8 @@
     <Header />
     <EventDetail />
   </section>
+
+  <Sponsors />
 
   {#if app && !paymentEmail}
     <Payment on:paymentComplete={handlePaymentComplete} />

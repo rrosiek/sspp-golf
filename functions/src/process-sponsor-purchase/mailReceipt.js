@@ -19,6 +19,7 @@ module.exports = async (purchaseId, purchase, squareCharge) => {
 
   const html = emailTemplate({
     address: `${purchase.address} ${purchase.city}, ${purchase.state} ${purchase.zipCode}`,
+    adminEmail: functions.config().tournament.admin_email,
     amount: moneyFormatter.format(
       Number(squareCharge.payment.amountMoney.amount) / 100
     ),

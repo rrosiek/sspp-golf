@@ -48,7 +48,7 @@ module.exports = async (purchaseSnap) => {
       squarePurchase: result,
     });
 
-    return result;
+    return [false, result];
   } catch (err) {
     if (err instanceof ApiError) {
       console.error(err.result);
@@ -56,6 +56,6 @@ module.exports = async (purchaseSnap) => {
       console.error(err);
     }
 
-    throw err;
+    return [err, false];
   }
 };

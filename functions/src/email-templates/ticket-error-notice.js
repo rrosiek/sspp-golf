@@ -17,46 +17,11 @@ module.exports = (payload) => {
         ></mj-divider>
 
         <mj-text font-size="18px">
-          Your golf tournament sponsorship purchase is complete! Below is your purchase information.  Please email an image of your logo to ${payload.adminEmail} so that it can be added to our website and other promotion material.  Thank you for your support!
+          We're sorry, but we ran into a problem processing your payment for the tournament tickets.
         </mj-text>
 
-        <mj-table font-size="16px">
-          <tr>
-            <td style="text-align: right">Sponsorship Purchased:</td>
-            <td style="padding: 2px 15px;">${payload.sponsorshipName}</td>
-          </tr>
-          <tr>
-            <td style="text-align: right">Name:</td>
-            <td style="padding: 2px 15px;">${payload.name}</td>
-          </tr>
-          <tr>
-            <td style="text-align: right">Email:</td>
-            <td style="padding: 2px 15px;">${payload.email}</td>
-          </tr>
-          <tr>
-            <td style="text-align: right">Address:</td>
-            <td style="padding: 2px 15px;">${payload.address}</td>
-          </tr>
-          <tr>
-            <td style="text-align: right">Phone:</td>
-            <td style="padding: 2px 15px;">${payload.phone}</td>
-          </tr>
-          <tr>
-            <td style="text-align: right">Total:</td>
-            <td style="padding: 2px 15px;">${payload.amount}</td>
-          </tr>
-          <tr>
-            <td style="text-align: right">Charged to:</td>
-            <td style="padding: 2px 15px;">${payload.chargedTo}</td>
-          </tr>
-          <tr>
-            <td style="text-align: right">Confirmation ID:</td>
-            <td style="padding: 2px 15px;">${payload.id}</td>
-          </tr>
-        </mj-table>
-
         <mj-text font-size="18px">
-          Any questions or concerns, please contact the tournament team at ssppgolf@yahoo.com, or Danielle Lovelace at (716) 445-5522.
+          Please contact ${payload.adminEmail} for assistance, also CC'd on this message.
         </mj-text>
 
         <mj-divider

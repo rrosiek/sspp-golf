@@ -3,7 +3,7 @@
   import { getFirebaseApp } from "$lib/firebase";
   import Header from "$lib/components/Header.svelte";
   import Footer from "$lib/components/Footer.svelte";
-  import Sponsor from "$lib/components/Sponsor.svelte";
+  import SponsorPayment from "$lib/components/SponsorPayment.svelte";
   import ThankYou from "$lib/components/ThankYou.svelte";
 
   const app = getFirebaseApp();
@@ -21,7 +21,7 @@
   </section>
 
   {#if app && !paymentEmail}
-    <Sponsor on:paymentComplete={handlePaymentComplete} />
+    <SponsorPayment on:paymentComplete={handlePaymentComplete} />
   {:else if paymentEmail}
     <ThankYou email={paymentEmail} />
   {/if}

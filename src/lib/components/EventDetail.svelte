@@ -168,6 +168,7 @@
           <div class="text-gray-800">Late Dinner</div>
         </div>
         <div class="text-sm text-gray-800 pt-6">
+          Hamburg Brewing Company<br />
           6553 Boston State Rd., Hamburg, NY 14075
         </div>
       </div>
@@ -239,13 +240,19 @@
         <div class="font-bold uppercase">Awards</div>
         <div class="text-gray-800">Closest to Pin (M & W)</div>
         <div class="text-gray-800">Longest Drive (M & W)</div>
+        <div class="text-gray-800">
+          <a href="auction-items" class="underline"> View Auction Items </a>
+        </div>
       </div>
     </div>
 
-    <div class="my-4 font-medium text-2xl text-center">
-      Sponsorships available for purchase <a class="underline" href="/sponsor"
-        >here</a
-      >.
+    <div class="max-w-xl mx-auto">
+      <a
+        href="#register"
+        class="inline-flex items-center justify-center w-full my-6 px-4 py-3 shadow font-display text-2xl font-semibold uppercase tracking-wider bg-mr-gold hover:bg-yellow-500 focus:outline-none focus:border-yellow-600 focus:shadow-outline-red active:bg-yellow-700 transition ease-in-out duration-150"
+      >
+        <div>Register Here</div>
+      </a>
     </div>
   </div>
 </section>
