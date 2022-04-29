@@ -30,7 +30,7 @@
   </h3>
 
   <div class="max-w-xs mx-auto my-2 p-2">
-    <a href="https://www.lippes.com">
+    <a href="https://www.stretchlab.com/location/southtowns">
       <img
         src="/stretch_lab_logo.jpg"
         alt="Stretch Lab Logo"
