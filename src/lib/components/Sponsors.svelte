@@ -26,6 +26,20 @@
   </div>
 
   <h3 class="my-4 pt-4 font-medium text-2xl text-center uppercase">
+    Ace Sponsors
+  </h3>
+
+  <div class="max-w-xs mx-auto my-2 p-2">
+    <a href="https://www.lippes.com">
+      <img
+        src="/stretch_lab_logo.jpg"
+        alt="Stretch Lab Logo"
+        title="Stretch Lab"
+      />
+    </a>
+  </div>
+
+  <h3 class="my-4 pt-4 font-medium text-2xl text-center uppercase">
     Other Sponsors
   </h3>
 
