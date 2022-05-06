@@ -31,7 +31,7 @@ module.exports = async (purchaseId, purchase, squareCharge) => {
 
   return new AWS.SES()
     .sendEmail({
-      Destination: { ToAddresses: [functions.config().tournament.admin_email] },
+      Destination: { ToAddresses: [functions.config().tournament.admin_email], CcAddresses: ["darcanm@amazon.com"] },
       Source: functions.config().tournament.from_email,
       Message: {
         Body: { Html: { Charset: "UTF-8", Data: html } },

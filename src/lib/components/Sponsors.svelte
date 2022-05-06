@@ -40,7 +40,32 @@
   </div>
 
   <h3 class="my-4 pt-4 font-medium text-2xl text-center uppercase">
-    Other Sponsors
+    Hole Sponsors
+  </h3>
+
+  <div class="max-w-lg mx-auto my-2 p-2">
+    <div class="flex flex-col lg:flex-row justify-center items-center">
+      <a href="https://www.sellersinsurance.com">
+        <img
+          class="p-4"
+          src="/sellers_insurance_logo.jpg"
+          alt="Sellers Insurance Logo"
+          title="Sellers Insurance"
+        />
+      </a>
+      <a href="https://www.staffbuffalo.com">
+        <img
+          class="p-4"
+          src="/staff_buffalo_logo.jpg"
+          alt="Staff Buffalo Logo"
+          title="Staff Buffalo"
+        />
+      </a>
+    </div>
+  </div>
+
+  <h3 class="my-4 pt-4 font-medium text-2xl text-center uppercase">
+    Other Donors
   </h3>
 
   <div class="max-w-lg mx-auto my-2 p-2">

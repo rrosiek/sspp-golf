@@ -24,7 +24,7 @@
         tournament dinner.
       </div>
 
-      <div class="flex flex-col justify-center item-center text-center">
+      <div class="flex flex-col justify-center items-center text-center">
         <div
           class="mt-4 font-display font-medium tracking-wide text-2xl text-mr-gold"
         >
@@ -37,7 +37,7 @@
         />
       </div>
 
-      <div class="flex flex-col justify-center item-center text-center">
+      <div class="flex flex-col justify-center items-center text-center">
         <div
           class="mt-4 font-display font-medium tracking-wide text-2xl text-mr-gold"
         >
@@ -50,17 +50,71 @@
         />
       </div>
 
-      <div
-        class="mt-4 font-display font-medium tracking-wide text-2xl text-mr-gold text-center"
-      >
-        Other Items Include:
+      <div class="flex flex-col justify-center items-center text-center">
+        <div
+          class="mt-4 font-display font-medium tracking-wide text-2xl text-mr-gold"
+        >
+          Signed Billy Sims Jersey
+        </div>
+        <img
+          class="p-2 my-4 border-2 border-mr-gold"
+          src="/sims_signed_jersey.jpg"
+          alt="Signed Billy Sims Jersey"
+        />
       </div>
-      <div class="text-center text-lg">
-        Andre reed signed jersey<br />
-        Golf for 2 at double diamond golf course in Ellicottville<br />
-        $100 to the Grange in Hamburg<br />
-        $500 gift card to the Curtis Hotel in downtown Buffalo
+
+      <div class="flex flex-col justify-center items-center text-center">
+        <div
+          class="mt-4 font-display font-medium tracking-wide text-2xl text-mr-gold"
+        >
+          Signed Andre Reed Jersey
+        </div>
+        <img
+          class="p-2 my-4 border-2 border-mr-gold"
+          src="/reed_signed_jersey.jpg"
+          alt="Signed Andre Reed Jersey"
+        />
       </div>
+
+      <div class="flex flex-col justify-center items-center text-center">
+        <div
+          class="mt-4 font-display font-medium tracking-wide text-2xl text-mr-gold"
+        >
+          $500 gift card to the Curtiss Hotel in downtown Buffalo
+        </div>
+        <img
+          class="p-2 my-4 border-2 border-mr-gold"
+          src="/curtiss_hotel.jpg"
+          alt="Curtiss Hotel gift card"
+        />
+      </div>
+
+      <div class="flex flex-col justify-center items-center text-center">
+        <div
+          class="mt-4 font-display font-medium tracking-wide text-2xl text-mr-gold"
+        >
+          $100 to the Grange in Hamburg
+        </div>
+        <img
+          class="w-2/3 p-2 my-4 border-2 border-mr-gold"
+          src="/grange_logo.jpg"
+          alt="Grange gift card"
+        />
+      </div>
+
+      <div class="flex flex-col justify-center items-center text-center">
+        <div
+          class="mt-4 font-display font-medium tracking-wide text-2xl text-mr-gold"
+        >
+          Golf for 2 at double diamond golf course in Ellicottville
+        </div>
+        <img
+          class="p-2 my-4 border-2 border-mr-gold"
+          src="/ellicotville_golf.jpg"
+          alt="Golf for 2 at Ellicottville"
+        />
+      </div>
+
     </div>
   </section>
 </main>
