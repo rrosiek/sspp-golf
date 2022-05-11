@@ -68,20 +68,29 @@
     Other Donors
   </h3>
 
-  <div class="max-w-lg mx-auto my-2 p-2">
+  <div class="max-w-4xl mx-auto my-2 p-2">
     <div class="flex flex-col lg:flex-row justify-center items-center">
-      <img
-        class="p-4"
-        src="/ignite_experience_agency.jpg"
-        alt="Ignite Experience Agency Logo"
-        title="Ignite Experience Agency"
-      />
-      <img
-        class="p-4"
-        src="/three_chord_bourbon_logo.jpg"
-        alt="Three Chord Bourbon Logo"
-        title="Three Chord Bourbon"
-      />
+      <div class="flex-1 p-4">
+        <img
+          src="/ignite_experience_agency.jpg"
+          alt="Ignite Experience Agency Logo"
+          title="Ignite Experience Agency"
+        />
+      </div>
+      <div class="flex-1 p-4">
+        <img
+          src="/three_chord_bourbon_logo.jpg"
+          alt="Three Chord Bourbon Logo"
+          title="Three Chord Bourbon"
+        />
+      </div>
+      <a class="flex-1 p-4" href="https://www.leospizzeriaonline.com">
+        <img
+          src="/leos_pizza_logo.jpg"
+          alt="Leo's Pizzeria Logo"
+          title="Leo's Pizzeria"
+        />
+      </a>
     </div>
   </div>
 </section>
