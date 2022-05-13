@@ -19,7 +19,7 @@
         <img
           src="/title_logo.png"
           alt="Welcome to SSPP 2022 Meat Raffle"
-          title="SSPP Raffle Header"
+          title="SSPP Golf Tournament"
         />
       </picture>
     </div>

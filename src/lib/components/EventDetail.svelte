@@ -5,7 +5,7 @@
   <div class="max-w-6xl mx-auto py-2 px-4 xl:w-2/3">
     <div class="font-bold text-2xl tracking-wide text-center">
       Join us on <span class="text-5xl">Friday, June 24</span> for a day of golf,
-      food, drinks, and fun in support and celebration of Saints Peter & Paul Schools!
+      food, drinks, and fun in support and celebration of Saints Peter & Paul School!
     </div>
     <div
       class="grid grid-cols-1 md:grid-cols-3 bg-white/50 my-6 text-center text-2xl"
