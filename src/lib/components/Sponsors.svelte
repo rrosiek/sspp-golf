@@ -40,6 +40,30 @@
   </div>
 
   <h3 class="my-4 pt-4 font-medium text-2xl text-center uppercase">
+    Birdie Sponsors
+  </h3>
+
+  <div class="max-w-xs mx-auto my-2 p-2">
+    <a href="https://www.sgroifinancial.com">
+      <img
+        src="/sgroi_financial_logo.jpg"
+        alt="SGROI Financial Logo"
+        title="SGROI Financial"
+      />
+    </a>
+  </div>
+
+  <div class="max-w-xs mx-auto my-2 p-2">
+    <a href="https://www.baillie.com">
+      <img
+        src="/baillie_logo.jpg"
+        alt="Baillie Logo"
+        title="Baillie"
+      />
+    </a>
+  </div>
+
+  <h3 class="my-4 pt-4 font-medium text-2xl text-center uppercase">
     Hole Sponsors
   </h3>
 
@@ -76,6 +100,18 @@
       </a>
       <div class="flex-1 p-4 m-4 border-2 text-center">The Lombardo Family</div>
       <div class="flex-2 p-4 m-4 border-2 text-center">Lucernoni Shultz & Co. LLP</div>
+    </div>
+  </div>
+  <div class="max-w-lg mx-auto my-2 p-2">
+    <div class="flex flex-col lg:flex-row justify-center items-center">
+      <a href="https://www.tarantinolaw.com">
+        <img
+          class="mx-auto p-4"
+          src="/tarantino_logo.jpg"
+          alt="Tarantino Law Logo"
+          title="Tarantino Law Firm, LLP"
+        />
+      </a>
     </div>
   </div>
 
