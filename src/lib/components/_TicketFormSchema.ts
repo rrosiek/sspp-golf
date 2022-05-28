@@ -27,8 +27,8 @@ export const schema: SchemaOf<PurchaseSchema> = object().shape({
     .required()
     .moreThan(-1)
     .lessThan(10),
-  golferName1: string().required().min(3).max(250).trim(),
-  golferContact1: string().required().min(3).max(250).trim(),
+  golferName1: string().optional().min(3).max(250).trim(),
+  golferContact1: string().min(3).max(250).trim().optional(),
   golferName2: string().optional().min(3).max(250).trim(),
   golferContact2: string().min(3).max(250).trim().optional(),
   // .when("golfer2Name", ([name], schema) =>

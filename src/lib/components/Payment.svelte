@@ -55,7 +55,7 @@
   let cardError = false;
   let ccDonate = false;
   let loading = false;
-  let golfers = [0];
+  let golfers = [];
   let dinnerCount = 0;
 
   $: golferCount = golfers.length;
@@ -138,7 +138,7 @@
   };
 
   const handleGolferDecrease = () => {
-    if (golferCount > 1) golfers = Array(golferCount - 1);
+    if (golferCount > 0) golfers = Array(golferCount - 1);
   };
 
   const handleDinnerIncrease = () => {
@@ -196,15 +196,13 @@
                     label={`Golfer ${i + 1} Email / Phone`}
                   />
                 </div>
-                {#if i > 0}
-                  <button
+                <button
                     on:click={handleGolferDecrease}
                     type="button"
                     class="inline-flex items-center justify-center w-full -mt-2 mb-4 px-4 py-2 shadow uppercase bg-mr-gold hover:bg-yellow-500 focus:outline-none focus:border-yellow-600 focus:shadow-outline-red active:bg-yellow-700"
                   >
                     Remove Golfer #{i + 1}
-                  </button>
-                {/if}
+                </button>
               {/each}
 
               {#if golferCount < 4}
