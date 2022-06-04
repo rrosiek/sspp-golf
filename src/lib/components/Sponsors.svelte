@@ -129,6 +129,26 @@
       </a>
     </div>
   </div>
+  <div class="max-w-lg mx-auto my-2 p-2">
+    <div class="flex flex-col lg:flex-row justify-center items-center">
+      <a href="https://cloverbankcc.com/">
+        <img
+          class="p-4"
+          src="/cloverbank_logo.jpg"
+          alt="Cloverbank CC Logo"
+          title="Cloverbank CC"
+        />
+      </a>
+      <a href="https://www.buffalo-chiropractic.com/acupuncture">
+        <img
+          class="p-4"
+          src="/buffalo_chiropractic_logo.jpg"
+          alt="Buffalo Chiropractic Logo"
+          title="Buffalo Chiropractic"
+        />
+      </a>
+    </div>
+  </div>
 
   <h3 class="my-4 pt-4 font-medium text-2xl text-center uppercase">
     Other Donors
