@@ -63,7 +63,7 @@
     </a>
   </div>
 
-  <div class="max-w-xs mx-auto mt-2 mb-4 p-2">
+  <div class="max-w-xs mx-auto mt-2 p-2">
     <a href="https://www.attealaw.com">
       <img
         src="/attea_and_attea_logo.jpg"
@@ -71,6 +71,12 @@
         title="Attea & Attea"
       />
     </a>
+  </div>
+
+  <div class="max-w-xs mx-auto mt-2 mb-4 p-2">
+    <div class="flex-2 p-4 m-4 border-4 text-2xl text-center">
+      The Adams Family
+    </div>
   </div>
 
   <h3 class="my-4 pt-4 font-medium text-2xl text-center uppercase">
@@ -115,6 +121,11 @@
     <div class="flex flex-col lg:flex-row justify-center items-center">
       <div class="flex-2 p-4 m-4 border-2 text-center">Lucernoni Shultz & Co. LLP</div>
       <div class="flex-2 p-4 m-4 border-2 text-center">The Stapleton Family</div>
+      <div class="flex-2 p-4 m-4 border-2 text-center">
+        <a href="https://m.facebook.com/vaccofarms/">
+          Vacco Farms
+        </a>
+      </div>
     </div>
   </div>
   <div class="max-w-lg mx-auto my-2 p-2">
@@ -145,6 +156,18 @@
           src="/buffalo_chiropractic_logo.jpg"
           alt="Buffalo Chiropractic Logo"
           title="Buffalo Chiropractic"
+        />
+      </a>
+    </div>
+  </div>
+  <div class="max-w-lg mx-auto my-2 p-2">
+    <div class="flex flex-col lg:flex-row justify-center items-center">
+      <a href="https://smcexams.com">
+        <img
+          class="mx-auto p-4"
+          src="/superior_medical_consultants_logo.jpg"
+          alt="Superior Medical Consultants Logo"
+          title="Superior Medical Consultants"
         />
       </a>
     </div>
